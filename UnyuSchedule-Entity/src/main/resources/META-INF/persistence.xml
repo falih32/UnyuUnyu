@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.kel6_UnyuSchedule-Entity_jar_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.kel6.unyuschedule.entity.BidangKeahlian</class>
+    <class>com.kel6.unyuschedule.entity.JenisKa</class>
+    <class>com.kel6.unyuschedule.entity.JamKuliahhari</class>
+    <class>com.kel6.unyuschedule.entity.Sidang</class>
+    <class>com.kel6.unyuschedule.entity.Seminar</class>
+    <class>com.kel6.unyuschedule.entity.Periode</class>
+    <class>com.kel6.unyuschedule.entity.KaryaAkhir</class>
+    <class>com.kel6.unyuschedule.entity.Topik</class>
+    <class>com.kel6.unyuschedule.entity.Ruangan</class>
+    <class>com.kel6.unyuschedule.entity.SlotWaktu</class>
+    <class>com.kel6.unyuschedule.entity.SeminarSidang</class>
+    <class>com.kel6.unyuschedule.entity.Dosen</class>
+    <class>com.kel6.unyuschedule.entity.JdwlSmnSdg</class>
+    <class>com.kel6.unyuschedule.entity.Ketersediaandosen</class>
+    <class>com.kel6.unyuschedule.entity.Mahasiswa</class>
+    <class>com.kel6.unyuschedule.entity.Koordinator</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/UnyuSchedue"/>
+      <property name="javax.persistence.jdbc.password" value="Gantengmaut89."/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.user" value="postgres"/>
+    </properties>
+  </persistence-unit>
+</persistence>
